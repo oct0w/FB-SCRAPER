@@ -41,3 +41,12 @@ To ensure the scraper launches correctly with your Selenium Chrome profile:
 - Ensure your profile path and ChromeDriver are correctly set in the code.
 
 Failure to close Chrome beforehand may lead to unexpected behavior or browser launch errors
+
+
+## 🔐 Before You Start
+
+To avoid browser errors and incomplete scrapes:
+
+- ✅ **Login to Facebook** using the Chrome profile specified in the script
+- ❌ **Close all Chrome tabs/windows** using that profile before starting the scraper
+- 🔧 Double-check paths for Chrome user profile and ChromeDriver
